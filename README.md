@@ -1,5 +1,4 @@
-# Summary
-install tensorflow on M1  
+# TensorFlow install on M1 Mac  
 apple provides MacOS-optimized Tensorflow and this supports both M1 and intel Macs.  
 
 ## [Mac-optimized TensorFlow from Apple](https://github.com/apple/tensorflow_macos#mac-optimized-tensorflow-and-tensorflow-addons)
