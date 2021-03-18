@@ -9,7 +9,7 @@ https://blog.tensorflow.org/2020/11/accelerating-tensorflow-performance-on-mac.h
 
 ## TensorFlow install
 1. M1 Mac
-    1. Tensorflow for M1
+    1. M1 TensorFlow
         1. conda  
            * Guidance: [https://github.com/apple/tensorflow_macos/issues/153](https://github.com/apple/tensorflow_macos/issues/153)  
            * It's said that Anaconda has some incompatible packages so Miniforge3(similar to miniconda) should be used.
@@ -17,7 +17,7 @@ https://blog.tensorflow.org/2020/11/accelerating-tensorflow-performance-on-mac.h
         2. venv  
            * Guidance: [https://github.com/apple/tensorflow_macos](https://github.com/apple/tensorflow_macos)
         
-    2. Tensorflow for Intel via rosetta2
+    2. Intel TensorFlow on rosetta2
         1. conda
         2. venv  
             Guidance: [https://www.tensorflow.org/install/source](https://www.tensorflow.org/install/source) (build from source)  
@@ -30,13 +30,13 @@ https://blog.tensorflow.org/2020/11/accelerating-tensorflow-performance-on-mac.h
 
 2. Intel Mac 
 
-# Some tests
+# Test
 M1 TF: v.2.4.0-rc0  
 Intel TF: v.2.5.0
 
 ## On M1 Mac, M1 TF vs Intel TF via Rosetta2
 test case: mnist fashion data with code from tensorflow.org  
-training time per epoch: M1 12sec vs Intel 24sec
+training time per epoch: M1 12 sec vs Intel 24 sec
 
 ## M1 TF, using cpu vs gpu
 
