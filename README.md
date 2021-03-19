@@ -40,5 +40,3 @@ training time per epoch: M1 12 sec vs Intel 24 sec
 ## M1 TF, using cpu vs gpu
 
 training time per epoch: cpu 12 sec vs gpu 55 sec
-
-

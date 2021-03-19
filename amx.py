@@ -4,7 +4,7 @@ disable_eager_execution()
 
 try:
     from tensorflow.python.compiler.mlcompute import mlcompute
-    mlcompute.set_mlc_device(device_name='gpu')
+    mlcompute.set_mlc_device(device_name='cpu')
 except:
     pass
 
@@ -28,3 +28,4 @@ loss='sparse_categorical_crossentropy',
 metrics=['accuracy'],run_eagerly=False)
 
 model.fit(train_images, train_labels, epochs=1, batch_size=32)
+
